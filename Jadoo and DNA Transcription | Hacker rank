@@ -1,0 +1,11 @@
+
+
+
+DNA={"G":'C', "C":'G', "T":'A', "A":'U'}
+
+n = input()
+if n in DNA:
+    print(DNA.get(n))
+
+else:
+      print("Invalid Input")
